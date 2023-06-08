@@ -1,0 +1,85 @@
+.city-weather-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.city-weather-list h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.city-weather-list form {
+  margin-bottom: 20px;
+}
+
+.city-weather-list label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.city-weather-list input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.city-weather-list button {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.scrollable-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group .button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

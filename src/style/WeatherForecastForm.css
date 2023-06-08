@@ -1,0 +1,95 @@
+.weather-forecast-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-forecast-form h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .weather-forecast-form form {
+    width: 100%;
+  }
+  
+  .weather-forecast-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .weather-forecast-form input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .weather-forecast-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-forecast-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .weather-forecast-form .error-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .weather-forecast-form table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .weather-forecast-form th,
+  .weather-forecast-form td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .weather-forecast-form th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .weather-forecast-form td {
+    background-color: #fff;
+  }
+
+  .form-wrapper.weather-forecast {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .button-container button + button {
+    margin-left: 10px;
+  }
