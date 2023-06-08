@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# WeatherAppAPIFrontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The provided code consists of multiple React components related to weather forecast and user registration functionalities. Each component is responsible for rendering a specific form or displaying data.
 
-## Available Scripts
+Here's a breakdown of the components:
 
-In the project directory, you can run:
+`APIKeyForm:` This component handles the form submission to get an API key. It takes the username and password as inputs, sends a POST request to the server, and displays the API key or an error message.
 
-### `npm start`
+`CityWeatherForm:` This component handles the form submission to get weather information for a specific city. It takes the city name, username, and API key as inputs, sends a GET request to the server, and displays the weather data or an error message.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`CityWeatherList:` This component handles the form submission to get weather information for cities associated with a specific username. It takes the username as input, sends a GET request to the server, and displays a table of weather data or an error message.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`RegisterForm:` This component handles the user registration form submission. It takes a username and password as inputs, sends a POST request to the server, and displays success or error messages.
 
-### `npm test`
+`WeatherForecastForm:` This component handles the form submission to get weather forecast information for a specific city. It takes the city name, username, and API key as inputs, sends a GET request to the server, and displays the forecast data or an error message.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`WeatherForecastList:` This component handles the form submission to get weather forecast information associated with a specific username. It takes the username as input, sends a GET request to the server, and displays a table of forecast data or an error message.
 
-### `npm run build`
+Each component follows a similar structure, using React hooks like `useState` and `useEffect` to manage state and perform side effects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To use these components, you need to import them into your main React component and render them accordingly based on your application's requirements. Make sure to update the API endpoint URLs to match your backend server configuration.
